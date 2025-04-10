@@ -125,7 +125,7 @@ function M.setup(palette)
     FloatTitle = {
       fg = palette.ui.text.b.normal,
       bg = palette.ui.area.b.normal,
-      style = { "bold" }
+      bold = true
     },
 
     -- popup menu
@@ -152,7 +152,7 @@ function M.setup(palette)
     -- quickfix
     QuickFixLine = {
       bg = palette.ui.area.c.normal,
-      style = { "bold" }
+      bold = true
     },
 
     -- search
@@ -177,19 +177,19 @@ function M.setup(palette)
     -- spelling
     SpellBad = {
       sp = palette.ui.border.c.error,
-      style = { "undercurl" }
+      undercurl = true
     },
     SpellCap = {
       sp = palette.ui.border.c.warning,
-      style = { "undercurl" }
+      undercurl = true
     },
     SpellLocal = {
       sp = palette.ui.border.c.info,
-      style = { "undercurl" }
+      undercurl = true
     },
     SpellRare = {
       sp = palette.ui.border.c.success,
-      style = { "undercurl" }
+      undercurl = true
     },
 
     -- status line
@@ -213,7 +213,7 @@ function M.setup(palette)
     TabLineSel = {
       fg = palette.ui.text.c.normal,
       bg = palette.ui.bg,
-      style = { "bold" }
+      bold = true
     },
 
     -- terminal cursor
@@ -229,7 +229,7 @@ function M.setup(palette)
     -- titles for output from commands
     Title = {
       fg = palette.ui.text.b.info,
-      style = { "bold" }
+      bold = true
     },
 
     -- visual selection

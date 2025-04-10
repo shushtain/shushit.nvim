@@ -14,7 +14,7 @@ function M.setup(palette)
     },
     ["@variable.builtin"] = {
       fg = palette.syntax.variable.builtin.any,
-      style = { "bold" }
+      bold = true
     },
     ["@namespace.builtin"] = {
       link = "@variable.builtin",
@@ -25,7 +25,7 @@ function M.setup(palette)
     },
     ["@variable.parameter.builtin"] = {
       fg = palette.syntax.variable.parameter.builtin.any,
-      style = { "bold" }
+      bold = true
     },
 
     ["@variable.member"] = {
@@ -37,7 +37,7 @@ function M.setup(palette)
     },
     ["@constant.builtin"] = {
       fg = palette.syntax.constant.builtin.any,
-      style = { "bold" }
+      bold = true
     },
     ["@constant.macro"] = {
       fg = palette.syntax.constant.macro.any,
@@ -48,7 +48,7 @@ function M.setup(palette)
     },
     ["@module.builtin"] = {
       fg = palette.syntax.module.builtin.any,
-      style = { "bold" }
+      bold = true
     },
 
     ["@label"] = {
@@ -112,7 +112,7 @@ function M.setup(palette)
     },
     ["@type.builtin"] = {
       fg = palette.syntax.type.builtin.any,
-      style = { "bold" }
+      bold = true
     },
     ["@type.definition"] = {
       fg = palette.syntax.type.definition.any,
@@ -126,7 +126,7 @@ function M.setup(palette)
     },
     ["@attribute.builtin"] = {
       fg = palette.syntax.attribute.builtin.any,
-      style = { "bold" }
+      bold = true
     },
 
     ["@property"] = {
@@ -142,7 +142,7 @@ function M.setup(palette)
     },
     ["@function.builtin"] = {
       fg = palette.syntax.func.builtin.any,
-      style = { "bold" }
+      bold = true
     },
     ["@function.call"] = {
       fg = palette.syntax.func.call.any,
@@ -267,21 +267,21 @@ function M.setup(palette)
     --]]
 
     ["@markup.strong"] = {
-      style = { "bold" }
+      bold = true
     },
     ["@markup.italic"] = {
-      style = { "italic" }
+      italic = true
     },
     ["@markup.strikethrough"] = {
-      style = { "strikethrough" }
+      strikethrough = true
     },
     ["@markup.underline"] = {
-      style = { "underline" }
+      underline = true
     },
 
     ["@markup.heading"] = {
       fg = palette.syntax.markup.heading.any,
-      style = { "bold" }
+      bold = true
     },
 
     ["@markup.quote"] = {

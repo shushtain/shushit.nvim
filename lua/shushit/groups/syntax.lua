@@ -112,13 +112,13 @@ function M.setup(palette)
     -- text-variants
     Underlined = {
       fg = palette.syntax.markup.underline.any,
-      style = { "underline" }
+      underline = true
     },
     Bold = {
-      style = { "bold" }
+      bold = true
     },
     Italic = {
-      style = { "italic" }
+      italic = true
     },
 
     -- ignored
@@ -148,7 +148,7 @@ function M.setup(palette)
     },
     DiagnosticUnderlineError = {
       sp = palette.ui.border.c.error,
-      style = { "undercurl" }
+      undercurl = true
     },
     DiagnosticVirtualTextError = {
       fg = palette.ui.text.c.error,
@@ -167,7 +167,7 @@ function M.setup(palette)
     },
     DiagnosticUnderlineWarn = {
       sp = palette.ui.border.c.warning,
-      style = { "undercurl" }
+      undercurl = true
     },
     DiagnosticVirtualTextWarn = {
       fg = palette.ui.text.c.warning,
@@ -186,7 +186,7 @@ function M.setup(palette)
     },
     DiagnosticUnderlineInfo = {
       sp = palette.ui.border.c.info,
-      style = { "undercurl" }
+      undercurl = true
     },
     DiagnosticVirtualTextInfo = {
       fg = palette.ui.text.c.info,
@@ -205,7 +205,7 @@ function M.setup(palette)
     },
     DiagnosticUnderlineHint = {
       sp = palette.ui.border.disabled,
-      style = { "undercurl" }
+      undercurl = true
     },
     DiagnosticVirtualTextHint = {
       fg = palette.ui.text.disabled,
@@ -224,7 +224,7 @@ function M.setup(palette)
     },
     DiagnosticUnderlineOk = {
       sp = palette.ui.border.c.success,
-      style = { "undercurl" }
+      undercurl = true
     },
     DiagnosticVirtualTextOk = {
       fg = palette.ui.text.c.success,
@@ -287,7 +287,7 @@ function M.setup(palette)
     -- diff headers
     diffFile = {
       fg = palette.ui.text.b.warning,
-      style = { "bold" }
+      bold = true
     },
     diffIndexLine = {
       fg = palette.ui.text.disabled
