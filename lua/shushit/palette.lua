@@ -35,6 +35,10 @@ if vim.o.background == "dark" then
       a = color.purple.v50,
       b = color.purple.v60
     },
+    cyan = {
+      a = color.cyan.v70,
+      b = color.cyan.v80
+    },
     white = {
       a = color.gray.v90,
       b = color.gray.v99
@@ -166,6 +170,10 @@ else
     purple = {
       a = color.purple.v25,
       b = color.purple.v35
+    },
+    cyan = {
+      a = color.cyan.v45,
+      b = color.cyan.v55
     },
     white = {
       a = color.gray.v55,
