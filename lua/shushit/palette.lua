@@ -52,13 +52,13 @@ if vim.o.background == "dark" then
     cutout = color.gray.v05,
     area = {
       a = {
-        normal = color.gray.v80,
-        error = color.red.v80,
-        warning = color.yellow.v80,
-        info = color.blue.v80,
-        success = color.green.v80,
-        binary = color.cyan.v80,
-        special = color.purple.v80
+        normal = color.gray.v70,
+        error = color.red.v70,
+        warning = color.yellow.v70,
+        info = color.blue.v70,
+        success = color.green.v70,
+        binary = color.cyan.v70,
+        special = color.purple.v70
       },
       b = {
         normal = color.gray.v20,
@@ -112,13 +112,13 @@ if vim.o.background == "dark" then
     },
     border = {
       a = {
-        normal = color.gray.v90,
-        error = color.red.v90,
-        warning = color.yellow.v90,
-        info = color.blue.v90,
-        success = color.green.v90,
-        binary = color.cyan.v90,
-        special = color.purple.v90
+        normal = color.gray.v80,
+        error = color.red.v80,
+        warning = color.yellow.v80,
+        info = color.blue.v80,
+        success = color.green.v80,
+        binary = color.cyan.v80,
+        special = color.purple.v80
       },
       b = {
         normal = color.gray.v40,
@@ -188,13 +188,13 @@ else
     cutout = color.gray.v95,
     area = {
       a = {
-        normal = color.gray.v20,
-        error = color.red.v20,
-        warning = color.yellow.v20,
-        info = color.blue.v20,
-        success = color.green.v20,
-        binary = color.cyan.v20,
-        special = color.purple.v20
+        normal = color.gray.v30,
+        error = color.red.v30,
+        warning = color.yellow.v30,
+        info = color.blue.v30,
+        success = color.green.v30,
+        binary = color.cyan.v30,
+        special = color.purple.v30
       },
       b = {
         normal = color.gray.v80,
@@ -248,13 +248,13 @@ else
     },
     border = {
       a = {
-        normal = color.gray.v10,
-        error = color.red.v10,
-        warning = color.yellow.v10,
-        info = color.blue.v10,
-        success = color.green.v10,
-        binary = color.cyan.v10,
-        special = color.purple.v10
+        normal = color.gray.v20,
+        error = color.red.v20,
+        warning = color.yellow.v20,
+        info = color.blue.v20,
+        success = color.green.v20,
+        binary = color.cyan.v20,
+        special = color.purple.v20
       },
       b = {
         normal = color.gray.v60,
@@ -312,38 +312,38 @@ palette.syntax = {
   -- identifiers
 
   variable = {
-    any = swatch.blue.a,
+    any = swatch.blue.b,
     builtin = {
       any = swatch.blue.b
     },
     parameter = {
-      any = swatch.blue.a,
+      any = swatch.blue.b,
       builtin = swatch.blue.b,
     },
     member = {
-      any = swatch.green.a,
+      any = swatch.blue.b,
     }
   },
 
   constant = {
     any = swatch.blue.a,
     builtin = {
-      any = swatch.blue.b
+      any = swatch.blue.a
     },
     macro = {
-      any = swatch.purple.a,
+      any = swatch.blue.a,
     }
   },
 
   module = {
-    any = swatch.green.a,
+    any = swatch.green.b,
     builtin = {
       any = swatch.green.b
     },
   },
 
   label = {
-    any = swatch.purple.a,
+    any = swatch.green.a,
   },
 
   -- literals
@@ -376,7 +376,7 @@ palette.syntax = {
   character = {
     any = swatch.yellow.a,
     special = {
-      any = swatch.yellow.a
+      any = swatch.yellow.b
     }
   },
 
@@ -394,9 +394,9 @@ palette.syntax = {
   -- types
 
   type = {
-    any = swatch.green.a,
+    any = swatch.green.b,
     builtin = {
-      any = swatch.green.a
+      any = swatch.green.b
     },
     definition = {
       any = swatch.green.b
@@ -404,33 +404,33 @@ palette.syntax = {
   },
 
   attribute = {
-    any = swatch.purple.a,
+    any = swatch.purple.b,
     builtin = {
       any = swatch.purple.b
     },
   },
 
   property = {
-    any = swatch.blue.a
+    any = swatch.blue.b
   },
 
   -- functions
 
   func = {
-    any = swatch.cyan.a,
+    any = swatch.cyan.b,
     builtin = {
       any = swatch.cyan.b
     },
     call = {
-      any = swatch.cyan.a
+      any = swatch.cyan.b
     },
     macro = {
-      any = swatch.purple.a
+      any = swatch.cyan.b
     },
     method = {
-      any = swatch.cyan.a,
+      any = swatch.cyan.b,
       call = {
-        any = swatch.cyan.a
+        any = swatch.cyan.b
       }
     }
   },
@@ -446,47 +446,47 @@ palette.syntax = {
   -- keywords
 
   keyword = {
-    any = swatch.purple.a,
+    any = swatch.purple.b,
     coroutine = {
-      any = swatch.purple.a
+      any = swatch.purple.b
     },
     func = {
-      any = swatch.purple.a
+      any = swatch.purple.b
     },
     operator = {
-      any = swatch.purple.a
+      any = swatch.purple.b
     },
     import = {
-      any = swatch.purple.a
+      any = swatch.purple.b
     },
     type = {
-      any = swatch.purple.a
+      any = swatch.purple.b
     },
     modifier = {
-      any = swatch.purple.a
+      any = swatch.purple.b
     },
     recursive = {
-      any = swatch.purple.a
+      any = swatch.purple.b
     },
     result = {
-      any = swatch.purple.a
+      any = swatch.purple.b
     },
     debug = {
-      any = swatch.purple.a
+      any = swatch.purple.b
     },
     exception = {
-      any = swatch.purple.a
+      any = swatch.purple.b
     },
     conditional = {
-      any = swatch.purple.a,
+      any = swatch.purple.b,
       ternary = {
-        any = swatch.white.a
+        any = swatch.white.b
       }
     },
     directive = {
-      any = swatch.purple.a,
+      any = swatch.purple.b,
       define = {
-        any = swatch.purple.a
+        any = swatch.purple.b
       },
     }
   },
@@ -494,15 +494,15 @@ palette.syntax = {
   -- punctuation
 
   punctuation = {
-    any = swatch.black.a,
+    any = swatch.black.b,
     delimiter = {
-      any = swatch.black.a
+      any = swatch.black.b
     },
     bracket = {
-      any = swatch.black.a
+      any = swatch.black.b
     },
     special = {
-      any = swatch.black.a
+      any = swatch.black.b
     }
   },
 
@@ -628,7 +628,7 @@ palette.syntax = {
       any = swatch.blue.b
     },
     delimiter = {
-      any = swatch.black.a
+      any = swatch.black.b
     },
   },
 
